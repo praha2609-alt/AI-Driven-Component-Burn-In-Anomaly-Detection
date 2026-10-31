@@ -34,3 +34,42 @@ Evaluation: Comparative analysis, CSV-based results and graphical visualisation
 ## Project Status
 
 The project implementation and comparative evaluation have been completed. Preparation of a research paper based on the project methodology and findings is planned.
+
+## How to Run the Project
+
+Follow these steps to run the project locally.
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/praha2609-alt/RTL-Design-and-Verification.git
+cd RTL-Design-and-Verification
+```
+
+### 2. Install Python Dependencies
+
+Make sure Python 3.x is installed on your system. Install the required libraries using:
+
+```bash
+pip install -r requirements.txt
+```
+
+### 3. Run the Application
+
+Execute the main application file:
+
+```bash
+python app.py
+```
+
+### 4. View the Results
+
+Once the program executes, the user can view the generated anomaly detection results and performance comparisons.
+
+The project includes:
+- Anomaly detection outputs from Isolation Forest and One-Class SVM.
+- Comparison results using Part Average Testing (PAT).
+- CSV files containing evaluation results.
+- Graphical visualisations of early detection and testing cost comparisons.
+
+**Note:** Ensure that the required dataset is available in the expected project directory before running the application. Run the scripts from the project root directory so that relative file paths resolve correctly.
